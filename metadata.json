@@ -1,0 +1,55 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Page1",
+    "Movies"
+  ],
+  "publishedPageOrder": [
+    "Page1",
+    "Movies"
+  ],
+  "publishedDefaultPageName": "Page1",
+  "unpublishedDefaultPageName": "Page1",
+  "invisibleActionFields": {
+    "Movies_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_JSObject1.myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_test": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedLayoutmongoEscapedWidgets": {
+    "Movies": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Movies": [
+      "data_table"
+    ]
+  },
+  "fileFormatVersion": 2
+}

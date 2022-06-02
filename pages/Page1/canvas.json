@@ -1,0 +1,123 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 5010,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Chart1",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.6adbe31e.svg",
+              "topRow": 11,
+              "bottomRow": 43,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "in4y48x3tl": {
+                  "seriesName": "Sales",
+                  "data": [
+                    {
+                      "x": "Product1",
+                      "y": 20000
+                    },
+                    {
+                      "x": "Product2",
+                      "y": 22000
+                    },
+                    {
+                      "x": "Product3",
+                      "y": 32000
+                    }
+                  ]
+                }
+              },
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "leftColumn": 19,
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion"
+                  },
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ]
+                }
+              },
+              "key": "q0ch50w29i",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 43,
+              "widgetId": "eyfrvyq6oy",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "Revenue($)",
+              "chartName": "Sales Report",
+              "borderRadius": "0px",
+              "xAxisName": "Product Line",
+              "chartType": "COLUMN_CHART"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "Chart1",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "6200bd0f37230472baba6636_6200bd0f37230472baba6638"
+}
